@@ -82,10 +82,3 @@ Veritabanı yapısı, hem raporlama hem de analiz amaçlı kullanılabilir.
 - Her ürün, bir kategoriye aittir.  
 - Her ürün, bir satıcıya bağlıdır.  
 
-
-
-
-
-
-
-ORDER BY u.fiyat DESC;
