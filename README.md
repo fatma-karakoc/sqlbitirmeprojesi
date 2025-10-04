@@ -87,8 +87,5 @@ Veritabanı yapısı, hem raporlama hem de analiz amaçlı kullanılabilir.
 
 
 
--- 3️⃣ En pahalı ürünü ve bu ürünü satan satıcı
-SELECT TOP 1 u.ad AS UrunAdi, u.fiyat, s.ad AS SaticiAdi
-FROM urun u
-JOIN satici s ON u.satici_id = s.id
+
 ORDER BY u.fiyat DESC;
